@@ -9,3 +9,4 @@ React 资源
 - <a href="https://github.com/JasonBoy/javascript/tree/master/react"> React 编码规范</a>
 - <a href="https://github.com/yannickcr/eslint-plugin-react"> eslint-plugin-react</a>
 - <a href="http://git.avepoint.net/react/reactpathfinder/tree/master"> GUI React  Tree</a>
+- <a href="https://www.w3cplus.com/react/introducing-react.html"> react 初学者教程 </a>
