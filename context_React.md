@@ -6,6 +6,18 @@
 3. contextTypes
 4. childContextTypes
 5. getChildContext
+6. If contextTypes is defined within a component, the following lifecycle methods will receive an additional parameter, the context object:
+
+ 6.1. constructor(props, context)
+ 
+ 6.2. componentWillReceiveProps(nextProps, nextContext)
+ 
+ 6.3. shouldComponentUpdate(nextProps, nextState, nextContext)
+ 
+ 6.4. componentWillUpdate(nextProps, nextState, nextContext)
+ 
+ 6.5. componentDidUpdate(prevProps, prevState, prevContext)
+
 下面是关于context 的demo：
 
 import React from 'react';
